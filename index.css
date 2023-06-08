@@ -1,0 +1,46 @@
+body {
+  background-image: url("station.jpg");
+  background-size: cover;
+  font-family: "Open Sans" Roboto, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: red;
+}
+
+button {
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: red;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: green;
+}
+
+#save-btn {
+  background: blue;
+}
+
+.block {
+  display: inline-block;
+  max-width: 140px;
+  text-align: center;
+}
